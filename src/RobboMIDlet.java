@@ -47,20 +47,11 @@ implements CommandListener {
    notifyDestroyed();
   }
  }
-
-
-
-
 }
-
-
-
 
 class RobboCanvas
 extends GameCanvas
 implements Runnable {
-
-
 
  String wersja = "V 0.61  11-03-2011";
  long czas1 = 0;
@@ -234,9 +225,6 @@ implements Runnable {
  }
 
 
-
-
-
  public RobboCanvas(RobboMIDlet hdmidlet, String carImageName, String obsImageName, String tloImageName)
  throws IOException {
   super(true);
@@ -252,7 +240,6 @@ implements Runnable {
   layerManager.setViewWindow(0, 0, width, height);
 
  }
-
 
 
  public void start() {
@@ -3929,8 +3916,5 @@ implements Runnable {
   }
 
  }
-
-
-
 
 }
